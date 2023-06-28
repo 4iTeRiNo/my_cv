@@ -1,0 +1,22 @@
+.menu {
+	display: flex;
+	align-items: start;
+	text-align: right;
+	gap: 2rem;
+	
+	&__item {
+		display: inline-block;
+		list-style: none;
+		text-align: right;
+	}
+
+	&__link{
+		border-bottom: 10px;
+		text-decoration: none;
+	}
+
+	&__link:hover{
+		color: $hover-links;
+		transition: color ease-in .4s;
+	}
+}
