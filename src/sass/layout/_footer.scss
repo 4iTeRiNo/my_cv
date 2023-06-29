@@ -1,0 +1,25 @@
+.footer {
+	margin-top: $margin-top;
+	margin-bottom: 1rem;
+
+	&__inner {
+		display: grid;
+		grid-template-columns: repeat(2, auto);
+    align-items: center;
+	}
+
+	&__copyright {
+		// padding-left: 3rem;
+	}
+
+	.contact-links {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		gap: a;
+
+		&__item{
+			list-style: none;
+		}
+	}
+}
