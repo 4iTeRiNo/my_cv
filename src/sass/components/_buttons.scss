@@ -1,0 +1,14 @@
+.btn{
+	position: relative;
+	display: inline-block;
+	font-family: "Ubuntu", sans-serif;
+	font-weight: $font-weight-text;
+	font-size: 1.2rem;
+	background-color: $background-button;
+	color: $color-text;
+	border: none;
+	padding: $padding-btn;
+	border-radius: $border-radius-btn;
+	text-decoration: none;
+	cursor: pointer;
+}

@@ -9,12 +9,13 @@
 
 //* layout
 @import 'layout/header';
-
-//* layout \menu
 @import 'layout/menu.scss';
+@import 'layout/about';
 
 //* components
 @import 'components/wrapper';
+@import 'components/buttons';
+
 
 //* themes
 @import 'themes/theme'

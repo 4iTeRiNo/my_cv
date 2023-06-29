@@ -1,0 +1,50 @@
+.main {
+	margin-top: 2rem;
+	align-items: center;
+
+	.about-me {
+		display: flex;
+		flex-direction: column;
+		margin: 0 auto;
+		align-items: center;
+
+		&__img-wrapper {
+			position: relative;
+			margin-top: auto;
+			margin-bottom: 30px;
+		}
+		
+		&__img{
+			position: relative;
+			width: 250px;
+			height: 250px;
+			border-radius: 50%;
+		}
+
+		&__title {
+			font-size: 1.5rem;
+		}
+
+		&__education {
+			font-size: 2rem;
+		}
+
+		&__buttons-wrapper{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			gap: 3rem;
+			margin-top: 1.5rem;
+		}
+
+		&__description{
+			margin-top: 1.5rem;
+			width: 1200px;
+
+			.description__item {
+				font-size: 1.2rem;
+				line-height: 1.3;
+			}
+		}
+	}
+}
