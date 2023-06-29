@@ -1,6 +1,8 @@
 .main {
 	margin-top: 2rem;
 	align-items: center;
+	margin: 0 0.8rem;
+
 
 	.about-me {
 		display: flex;
@@ -39,7 +41,7 @@
 
 		&__description{
 			margin-top: 1.5rem;
-			width: 1200px;
+			max-width: 1200px;
 
 			.description__item {
 				font-size: 1.2rem;

@@ -13,10 +13,17 @@ module.exports = {
 	entry: path.resolve(__dirname, 'src', 'index.js'),
 	output: {
 		assetModuleFilename: 'asset/[hash][ext][query]',
-		path: path.resolve(__dirname, 'dist', 'minesweeper'),
+		path: path.resolve(__dirname, 'dist',),
 		publicPath: 'auto',
 		filename: '[name].[contenthash].js',
 		clean: true,
+	},
+	devServer: {
+			historyApiFallback: true,
+			open: true,
+			compress: true,
+			hot: true,
+			port: 8080,
 	},
 	devtool: 'source-map',
 	plugins: [
