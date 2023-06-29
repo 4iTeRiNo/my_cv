@@ -19,8 +19,6 @@ module.exports = {
 		clean: true,
 	},
 	devServer: {
-			historyApiFallback: true,
-			open: true,
 			compress: true,
 			hot: true,
 			port: 8080,

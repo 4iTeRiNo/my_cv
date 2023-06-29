@@ -117,94 +117,51 @@
 						</ul>
 				</section>
 				<section id="projects" class="project">
-						<p class="project__subtitle">What I do</p>
-						<h2 class="project__title">Recent project</h2>
-						<div class="project__wrapper">
-							<article class="project__item">
-								<a href="https://4iterino.github.io/Interior-sait/" class="project__link" target="_blank">
-									<img src="../src/images/project-one.png" alt="projectIntro" class="project__img">
-									<div class="projects__content">
-										<p class="subtitle project__subtitle">HTML, CSS, JS</p>
-										<h3 class="title project__title">Website layout</h3>
-										<div class="btn  btn-basice btn-link">
-											<span>See project</span>
-										</div>
+					<p class="project__subtitle">What I do</p>
+					<h2 class="project__title">Recent project</h2>
+					<div class="project__wrapper">
+						<article class="project__item">
+							<a href="https://4iterino.github.io/Interior-sait/"class="project__link" target="_blank">
+								<img src="../src/images/project-one.png"alt="projectIntro" class="project__img">
+								<div class="project__content">
+									<p class="subtitle project__subtitle">HTML, CSS,JS</p>
+									<h3 class="title project__title">Website layout<h3>
+									<div class="btn  btn-basice btn-link">
+										<span>See project</span>
 									</div>
-								</a>
-							</article>
-						</div>
-				</section>
-				<section id="experience" class="code-example container">
-						<h2 class="title">Code example</h2>
-						<h3 class="code-example__name"><span>Reverse words:</span>
-							Complete the function that accepts a string parameter, and reverses each word in the string. All spaces in the string should be retained.
-						</h3>
-						<div class="code-example__codebox">
-							<div class="code-example__item">
-								<pre class="language-javascript">
-									<code class="code-example__desc">
-										const fs = require('fs')
-										const path = require('path')
-										const folderPath = path.join(__dirname, 'files')
-										const folderCopyPath = path.join(__dirname, 'files-copy')
-
-										try {
-
-											fs.rm(folderCopyPath, { recursive: true, force: true }, (error) => {
-												if(error) throw Error;
-
-												fs.mkdir(folderCopyPath, {recursive: true}, error => {
-													if(error) throw Error;
-												
-													fs.readdir(folderPath, (error, files) => {
-														if(error) throw Error;
-													
-														files.forEach(item => {
-															const filePath = path.join(folderPath, item)
-															const fileCopyPath = path.join(folderCopyPath, item)
-														
-															fs.copyFile(filePath, fileCopyPath, 0,(err) => {
-																if(err) throw Error;
-															})
-														})
-													})
-													console.log('folder copied')
-												})
-											})
-											
-										} catch {
-											console.log('Opps', error)
-										}
-									</code>
-								</pre>
-							</div>
-						</div>
+								</div>
+							</a>
+						</article>
+					</div>
 				</section>
 				<section class="education container">
-						<h2 id="education" class="title">Education and courses</h2>
-							<ul class="education__list">
-								<li class="education__item">
-									<p class="education__year">December, 2022 - now</p>
-									<p class="education__status">In Progress</p>
-									<h4 class="education__degree">Junior Front-End Development Course</h4>
-									<p class="education__company"><a href="https://rs.school/js-stage0/" target="_blank">
-										Rolling Scopes School
-											<span data-linktitle="Rolling Scopes School" aria-hidden="true"></span>
-									</a>
-								</p>
-								</li>
-								<li class="education__item">
-									<p class="education__year">September, 2013 - June, 2018</p>
-									<p class="education__status">University degree</p>
-									<h4 class="education__degree">Engineer technologist of fermentation technology</h4>
-									<p class="education__company">
-										<a href="https://www.altstu.ru/m/" target="_blank">
-											Altai State Technical University named after I.I. Polzunov
-											<span data-linktitle="Altai State Technical University" aria-hidden="true"></span>
-										</a>
-									</p>
-								</li>
-							</ul>
+					<h2 id="education" class="education__title">Education and courses<h2>
+					<ul class="education__list">
+						<li class="education__item">
+							<p class="education__year">December, 2022 - now</p>
+							<p class="education__status">In Progress</p>
+							<h4 class="education__degree">Junior Front-EndDevelopment Course</h4>
+							<p class="education__company">
+								<a href="https://rsschool/js-stage0/" target="_blank">
+									Rolling Scopes School
+									<span data-linktitle="Rolling Scopes School" aria-hidden="true">
+									</span>
+								</a>
+							</p>
+						</li>
+						<li class="education__item">
+							<p class="education__year">September, 2013 - June,2018</p>
+							<p class="education__status">University degree</p>
+							<h4 class="education__degree">Engineertechnologist of fermentation technology</h4>
+							<p class="education__company">
+								<a href="https://www.altstu.ru/m/"target="_blank">
+									Altai State Technical University named after II. Polzunov
+									<span data-linktitle="Altai State TechnicalUniversity" aria-hidden="true">
+									</span>
+								</a>
+							</p>
+						</li>
+					</ul>
 				</section>
 				<section class="language container">
 						<h2 class="title language__desc">Language</h2>

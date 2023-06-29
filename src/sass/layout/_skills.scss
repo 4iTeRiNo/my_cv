@@ -3,7 +3,7 @@
 	grid-template-columns: repeat(4, 25%);
 	margin: 0 auto;
 	align-items: center;
-	margin-top: 5rem;
+	margin-top: $margin-top;
 	font-size: 1.6rem;
 
 	&__title{
