@@ -1,0 +1,12 @@
+.language {
+	margin-top: $margin-top;
+	
+	&__list {
+		display: grid;
+		margin-top: 1.5rem;
+		text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3rem;
+    row-gap: 10px;
+	}
+}

@@ -1,0 +1,24 @@
+.education {
+	margin-top: $margin-top;
+
+	&__title {
+		font-size: 2rem;
+	}
+
+	&__list {
+		margin-top: 1.5rem;
+		display: grid;
+		grid-template-rows: 60%;
+	}
+
+	&__item {
+		display: grid;
+		grid-template-columns: repeat(4, 25%);
+		padding: .6rem 0;
+		border-bottom: 1px solid #fff;
+		
+		&:last-child {
+			border-bottom: none;
+		}
+	}
+}
