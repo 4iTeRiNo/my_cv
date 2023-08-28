@@ -3,7 +3,7 @@
 	grid-template-columns: repeat(4, 25%);
 	margin: 0 auto;
 	align-items: center;
-	margin-top: $margin-top;
+	margin-top: var(--margin-top);
 	font-size: 1.6rem;
 
 	&__title{
@@ -33,7 +33,7 @@
 }
 
 .background-block{
-	background-image: $background-skill-section;
+	background-image: var(--background-skill-section);
 	padding: 3rem;
-	border-radius: $border-radius-btn;
+	border-radius: var(--border-radius-btn);
 }

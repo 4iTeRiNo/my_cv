@@ -1,0 +1,64 @@
+@media (prefers-color-scheme: light) {
+
+  /* Body */
+  #page {
+    --background-overall: #fafafa;
+  }
+
+  .btn-download {
+    border: 1px solid #4e1e5d;
+  }
+
+  * {
+    color: var(--color-dark);
+  }
+
+  /* Switcher */
+
+  .switcher__radio {
+    filter: invert(0);
+  }
+
+  .switcher__radio:checked {
+    filter: invert(1);
+  }
+
+  .switcher__status {
+    filter: invert(0);
+  }
+}
+
+
+
+html[data-theme='light'] {
+  #page {
+    --background-overall: #fafafa;
+  }
+
+  .btn-download {
+    border: 1px solid #4e1e5d;
+  }
+
+  * {
+    color: var(--color-dark);
+  }
+}
+
+
+// :root {
+//     $active-theme: $light-theme;
+
+//     @each $color, $shade in $active-theme {
+//       @each $prop, $value in $shade {
+//         --clr-#{$color}-#{$prop}: #{$value};
+//       }
+//     }
+//   }
+
+//   html[data-theme='light'] {
+//     @each $color, $shade in $dark-theme {
+//       @each $prop, $value in $shade {
+//         --clr-#{$color}-#{$prop}: #{$value};
+//       }
+//     }
+//   }

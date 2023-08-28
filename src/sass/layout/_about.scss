@@ -2,7 +2,6 @@
 	margin-top: 2rem;
 	align-items: center;
 
-
 	.about-me {
 		display: flex;
 		flex-direction: column;
@@ -27,7 +26,7 @@
 		}
 
 		&__education {
-			font-size: 2rem;
+			font-size: 3rem;
 		}
 
 		&__buttons-wrapper{
@@ -35,7 +34,7 @@
 			flex-direction: row;
 			justify-content: space-around;
 			gap: 3rem;
-			margin-top: $margin-top;
+			margin-top: var(--margin-top);
 		}
 
 		&__description{

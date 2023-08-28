@@ -2,13 +2,24 @@
 	position: relative;
 	display: inline-block;
 	font-family: "Ubuntu", sans-serif;
-	font-weight: $font-weight-text;
+	font-weight: var(--font-weight-text);
 	font-size: 1.2rem;
-	background-color: $background-button;
-	color: $color-text;
+	background-color: var(--background-button);
+	color: var(--color-text);
 	border: none;
-	padding: $padding-btn;
-	border-radius: $border-radius-btn;
+	padding: var(--padding-btn);
+	border-radius: var(--border-radius-btn);
 	text-decoration: none;
 	cursor: pointer;
+
+	span {
+		z-index: 3;
+		position: relative;
+	}
+}
+
+.btn-download {
+	background-color: transparent;
+	color: var(--color-text);
+	border:1px solid #fff;
 }

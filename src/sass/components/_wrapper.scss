@@ -1,6 +1,6 @@
 .wrapper {
 	margin: 0 auto;
 	padding: 0 2rem;
-	max-width: $max-width;
+	max-width: var(--max-width);
 	overflow: hidden;
 }

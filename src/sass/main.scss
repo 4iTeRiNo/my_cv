@@ -21,7 +21,10 @@
 //* components
 @import 'components/wrapper';
 @import 'components/buttons';
+@import 'components/buttonEffect';
 
 
 //* themes
-@import 'themes/theme'
+@import 'themes/theme';
+@import 'themes/dark.scss';
+@import 'themes/ligth.scss';

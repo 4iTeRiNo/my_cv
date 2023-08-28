@@ -12,8 +12,8 @@ module.exports = {
 	mode: mode,
 	entry: path.resolve(__dirname, 'src', 'index.js'),
 	output: {
-		assetModuleFilename: 'asset/[hash][ext][query]',
-		path: path.resolve(__dirname, 'dist',),
+		assetModuleFilename: 'asset/[name][ext]',
+		path: path.resolve(__dirname, 'dist'),
 		publicPath: 'auto',
 		filename: '[name].[contenthash].js',
 		clean: true,
@@ -26,7 +26,7 @@ module.exports = {
 	devtool: 'source-map',
 	plugins: [
 		new MiniCssExtractPlugin({
-			filename: '[name].[contenthash].css'
+			filename: '[name].css'
 		}),
 		new HtmlWebpackPlugin({
 		template: path.resolve(__dirname, 'src', 'index.html')

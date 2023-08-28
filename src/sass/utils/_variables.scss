@@ -1,13 +1,16 @@
-$font-size: 1.03em;
-$font-size-tile: 1rem;
-$font-Sigmar: 'Ubuntu', cursive;
-$font-weight-text:500;
-$color-text: #e0e0e0;
-$hover-links: #e0e0e0c9;
-$background-overall:#1C121F;
-$background-skill-section: linear-gradient(0deg, #bc1965, #493062 100%);
-$background-button: #a42445;
-$margin-top: 3rem;
-$border-radius-btn : 5px;
-$padding-btn: 1.1rem 1.5rem;
-$max-width: 1440px;
+:root {
+  --font-size: 1.03em;
+  --color-text: #e0e0e0;
+  --background-overall: #1C121F;
+  --font-size-tile: 1rem;
+  --color-dark:  #4e1e5d;
+  --font-Sigmar: 'Ubuntu', cursive;
+  --font-weight-text: 500;
+  --hover-links: #e0e0e0c9;
+  --background-skill-section: linear-gradient(0deg, #bc1965, #493062 100%);
+  --background-button: #a42445;
+  --margin-top: 3rem;
+  --border-radius-btn: 5px;
+  --padding-btn: 1.1rem 1.5rem;
+  --max-width: 1440px;
+}
