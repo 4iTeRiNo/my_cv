@@ -10,7 +10,7 @@
   }
 
   * {
-    color: var(--color-dark);
+    --color-text: #4e1e5d;
   }
 
   /* Switcher */
@@ -26,39 +26,28 @@
   .switcher__status {
     filter: invert(0);
   }
+
 }
 
-
-
 html[data-theme='light'] {
+  * {
+    --color-text: #4e1e5d
+  }
+
   #page {
     --background-overall: #fafafa;
   }
+
+  .project__content {
+    h3 {
+      --color-text: #e0e0e0;
+    }
+  }
+
 
   .btn-download {
     border: 1px solid #4e1e5d;
   }
 
-  * {
-    color: var(--color-dark);
-  }
 }
 
-
-// :root {
-//     $active-theme: $light-theme;
-
-//     @each $color, $shade in $active-theme {
-//       @each $prop, $value in $shade {
-//         --clr-#{$color}-#{$prop}: #{$value};
-//       }
-//     }
-//   }
-
-//   html[data-theme='light'] {
-//     @each $color, $shade in $dark-theme {
-//       @each $prop, $value in $shade {
-//         --clr-#{$color}-#{$prop}: #{$value};
-//       }
-//     }
-//   }

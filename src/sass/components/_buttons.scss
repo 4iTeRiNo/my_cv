@@ -12,6 +12,10 @@
 	text-decoration: none;
 	cursor: pointer;
 
+	a {
+		z-index: 3;
+		position: relative;
+	}
 	span {
 		z-index: 3;
 		position: relative;

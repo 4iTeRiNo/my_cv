@@ -2,11 +2,11 @@
 
   /* Body */
   #page {
-    --background-overall: #1C121F;
+    background-color: (--background-overall); 
   }
 
   * {
-    --color-text: #e0e0e0;
+    color: var(--color-text);
   }
 
   /* Switcher */
@@ -25,30 +25,10 @@
 
 html[data-theme='dark'] {
   #page {
-    --background-overall: #1C121F;
+    background-color: (--background-overall); 
   }
 
   * {
-    --color-text: #e0e0e0;
+    color: var(--color-text);
   }
-
 }
-
-
-// :root {
-//     $active-theme: $dark-theme;
-
-//     @each $color, $shade in $active-theme {
-//       @each $prop, $value in $shade {
-//         --clr-#{$color}-#{$prop}: #{$value};
-//       }
-//     }
-//   }
-
-//   html[data-theme='dark'] {
-//     @each $color, $shade in $dark-theme {
-//       @each $prop, $value in $shade {
-//         --clr-#{$color}-#{$prop}: #{$value};
-//       }
-//     }
-//   }
