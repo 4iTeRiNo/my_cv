@@ -5,17 +5,32 @@
 	&__inner {
 		display: grid;
 		grid-template-columns: repeat(2, auto);
-    align-items: center;
+		align-items: center;
 	}
 
 	.contact-links {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
-		gap: a;
+		gap: 0.5em;
 
-		&__item{
+		&__item {
 			list-style: none;
+		}
+	}
+
+	@media (max-width: 500px) {
+		&__inner {
+			display: flex;
+			flex-direction: column-reverse;
+			row-gap: 1em;
+		}
+
+		.contact-links {
+			width: 55%;
+			row-gap: 1em;
+			justify-content: space-between;
+			flex-wrap: wrap;
 		}
 	}
 }

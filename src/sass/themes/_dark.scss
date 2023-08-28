@@ -2,7 +2,7 @@
 
   /* Body */
   #page {
-    background-color: (--background-overall); 
+    background-color: var(--background-overall); 
   }
 
   * {
@@ -25,7 +25,7 @@
 
 html[data-theme='dark'] {
   #page {
-    background-color: (--background-overall); 
+    background-color: var(--background-overall); 
   }
 
   * {

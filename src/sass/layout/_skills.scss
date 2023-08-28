@@ -1,17 +1,16 @@
-.skills{
+.skills {
 	display: grid;
-	grid-template-columns: repeat(4, 25%);
+	grid-template-columns: repeat(4, 1fr);
 	margin: 0 auto;
 	align-items: center;
 	margin-top: var(--margin-top);
-	font-size: 1.6rem;
 
-	&__title{
+	&__title {
 		text-align: center;
 		font-size: 2.2rem;
 	}
 
-	&__list{
+	&__list {
 		list-style: none;
 		line-height: 1.4;
 		font-size: 1.5rem;
@@ -19,20 +18,31 @@
 
 	&__item {
 
-		&::before{
-		content: "<";
-		margin-left: -12px;
-		color: #f18ba5;
-	}
-	
-		&::after{
+		&::before {
+			content: "<";
+			margin-left: -12px;
+			color: #f18ba5;
+		}
+
+		&::after {
 			content: ">";
 			color: #f18ba5;
 		}
 	}
+
+	@media (max-width: 800px) {
+		grid-template-columns: repeat(2, 1fr);
+		row-gap: 2rem;
+		&__title{
+			font-size: 1.6em;
+		}
+		&__list{
+font-size: 1.2em;
+		}
+	}
 }
 
-.background-block{
+.background-block {
 	background-image: var(--background-skill-section);
 	padding: 3rem;
 	border-radius: var(--border-radius-btn);
