@@ -2,11 +2,11 @@
 
   /* Body */
   #page {
-    background-color: var(--background-overall); 
+   --background-overall: #1C121F;
   }
 
   * {
-    color: var(--color-text);
+    --color-text: #e0e0e0
   }
 
   /* Switcher */
@@ -25,10 +25,10 @@
 
 html[data-theme='dark'] {
   #page {
-    background-color: var(--background-overall); 
+    --background-overall:#1C121F; 
   }
 
   * {
-    color: var(--color-text);
+    --color-text:#e0e0e0;
   }
 }

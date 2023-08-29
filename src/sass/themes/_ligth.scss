@@ -38,16 +38,48 @@ html[data-theme='light'] {
     --background-overall: #fafafa;
   }
 
-  .project__content {
-    h3 {
-      --color-text: #e0e0e0;
+  .burger-menu__button span,
+  .burger-menu__button span::after,
+  .burger-menu__button span::before {
+    --color-burger: #4e1e5d;
+  }
+
+  .skills {
+    &__title {
+      --color-text: #fafafa
+    }
+
+    &__item {
+      --color-text: #fafafa;
     }
   }
 
+  .project {
+
+    .project__content {
+
+      h3 {
+        --color-text: #e0e0e0;
+      }
+
+      &__subtitle {
+        --color-text: #fafafa;
+      }
+    }
+  }
+
+  .btn {
+    --background-button: #4e1e5d;
+
+    span {
+      --color-text: #fafafa;
+    }
+  }
 
   .btn-download {
     border: 1px solid #4e1e5d;
+
+
   }
 
 }
-
