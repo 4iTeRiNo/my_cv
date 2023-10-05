@@ -4,7 +4,6 @@
 	&__list {
 		margin-top: 1.5rem;
 		display: grid;
-		grid-template-rows: 60%;
 	}
 
 	&__item {
@@ -12,7 +11,7 @@
 		grid-template-columns: repeat(4, 25%);
 		padding: .6rem 0;
 		border-bottom: 1px solid #fff;
-
+		text-wrap: balance;
 		&:last-child {
 			border-bottom: none;
 		}
