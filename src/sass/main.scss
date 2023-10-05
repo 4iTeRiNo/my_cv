@@ -1,0 +1,31 @@
+//* variable
+@import 'utils/variables';
+
+//* Base style
+@import 'base/normalize';
+@import 'base/fonts';
+@import 'base/overall';
+
+
+//* layout
+@import 'layout/header';
+@import 'layout/menu.scss';
+@import 'layout/about';
+@import 'layout/skills';
+@import 'layout/project';
+@import 'layout/education';
+@import 'layout/language';
+@import 'layout/footer';
+
+
+//* components
+@import 'components/wrapper';
+@import 'components/buttons';
+@import 'components/buttonEffect';
+@import 'components/burgerMenu';
+
+
+//* themes
+@import 'themes/theme';
+@import 'themes/dark.scss';
+@import 'themes/ligth.scss';

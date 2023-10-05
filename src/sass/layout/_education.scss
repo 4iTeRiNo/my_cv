@@ -1,0 +1,26 @@
+.education {
+	margin-top: var(--margin-top);
+
+	&__list {
+		margin-top: 1.5rem;
+		display: grid;
+	}
+
+	&__item {
+		display: grid;
+		grid-template-columns: repeat(4, 25%);
+		padding: .6rem 0;
+		border-bottom: 1px solid #fff;
+		text-wrap: balance;
+		&:last-child {
+			border-bottom: none;
+		}
+	}
+
+	@media (max-width: 500px) {
+		&__item {
+			grid-template-columns: repeat(2, 1fr);
+			align-items: center;
+		}
+	}
+}

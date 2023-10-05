@@ -1,0 +1,11 @@
+.wrapper {
+	margin: 0 auto;
+	padding: 0 1em;
+	max-width: var(--max-width);
+	overflow: hidden;
+
+	@media (max-width: 500px) {
+		max-width: var(--media-mobile);
+		padding: 0 0.5em;
+	}
+}
