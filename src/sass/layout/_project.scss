@@ -17,6 +17,11 @@
 		font-size: 2rem;
 	}
 
+	&__desc{
+		text-align: right;
+		width: 50%;
+	}
+
 	&__wrapper {
 		display: flex;
 		flex-direction: column;
@@ -68,16 +73,38 @@
 	}
 
 	&__content {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-between;
 		position: absolute;
-		max-width: 65%;
+		max-width: 85%;
 		top: 150px;
 		left: 68px;
 		z-index: 2;
 	}
 
+	@media (max-width:800px) {
+		&__content{
+			flex-direction: column-reverse;
+			align-items: center;
+			justify-content: center;
+			top: 20px;
+			row-gap: 25px;
+			left: 30px;
+		}
+		&__desc{
+			text-align: center;
+			text-wrap: balance;
+			width: 100%;
+			line-height: 1;
+			font-size: 1.4rem;
+		}
+	}
+
 	@media (max-width: 400px) {
 		&__content {
-			left: 40px;
+			left: 0px;
 			max-width: 100%;
 		}
 	}
