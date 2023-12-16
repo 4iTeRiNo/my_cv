@@ -1,12 +1,11 @@
 @media (prefers-color-scheme: dark) {
-
   /* Body */
   #page {
-   --background-overall: #1C121F;
+    --background-overall: #1c121f;
   }
 
   * {
-    --color-text: #e0e0e0
+    --color-text: #e0e0e0;
   }
 
   /* Switcher */
@@ -25,10 +24,10 @@
 
 html[data-theme='dark'] {
   #page {
-    --background-overall:#1C121F; 
+    --background-overall: #1c121f;
   }
 
   * {
-    --color-text:#e0e0e0;
+    --color-text: #e0e0e0;
   }
 }
