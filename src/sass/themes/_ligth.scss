@@ -33,7 +33,7 @@ html[data-theme='light'] {
   * {
     --color-text: #4e1e5d
   }
-
+  
   #page {
     --background-overall: #fafafa;
   }
@@ -55,13 +55,18 @@ html[data-theme='light'] {
   }
 
   .project {
-
-    .project__content {
-
+        
+    &__content {
+      
+      p {
+        --color-text: #fafafa;
+      }
+      
       h3 {
         --color-text: #e0e0e0;
       }
-
+      
+    }
       &__subtitle {
         --color-text: #fafafa;
       }
@@ -81,5 +86,3 @@ html[data-theme='light'] {
 
 
   }
-
-}
