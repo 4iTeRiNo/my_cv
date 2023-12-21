@@ -27,8 +27,13 @@
 - React
 
 ## Project :
-- [Cozy House](https://4iterino.github.io/shelter_ts_react/): React/TS;
-- [ZubkovIgor-CV](https://4iterino.github.io/my_cv/);
+- [weather-app](https://github.com/4iTeRiNo/react-weather-app): React, Redux + Toolkit, TS, API, Vite;
+
+> Пет-проект. Имитация работы в команде с использованием функционала GitHub, под руководством действующего middle+ разработчика. В данный момент веду работу;
+
+- [Table-react](https://it-workin-test-task.vercel.app/): React, Hooks, TS, API;
+
+> Проект написан на чистом React с использованием TypeScript + Axios в качестве запроса к серверу;<br> Использовал useReducer, UseState, useEffect, useContext, небольшая работа с анимацией и setTimeout;
 
 
 ## How to contact me :
