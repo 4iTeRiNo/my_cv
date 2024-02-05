@@ -29,6 +29,9 @@
 ## Project :
 - [Cozy House](https://4iterino.github.io/shelter_ts_react/): React/TS;
 - [ZubkovIgor-CV](https://4iterino.github.io/my_cv/);
+- [Plants](https://rolling-scopes-school.github.io/4iterino-JSFEPRESCHOOL2022Q4/plants);
+- [Web App Weather](https://react-weather-app-woad-ten.vercel.app/);
+-[React Table](https://it-workin-test-task.vercel.app/);
 
 
 ## How to contact me :
